@@ -1,13 +1,39 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*
+*font-family: 'Lato', sans-serif;
+*font-family: 'Manrope', sans-serif;
+*font-family: 'Open Sans', sans-serif;
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+:root {
+  --floral-white: #fff8f0;
+  --pure-white: #ffffff;
+  --warm-white: #fff5eb;
+  --off-white: #fdfcf9;
+  --bg: #FAFAFC;
+  --light-gray: #eaeaea;
+  --medium-gray: #777777;
+  --raising-black: #2d2d34;
+  --raising-black-darker-variant: #262629;
+  --raising-black-charcoal-variant: #1f1f26;
+  --raising-black-warmer-dark-variant: #35353b;
+  --majorelle-blue: #724cf9;
+  --majorelle-blue-softer-variant: #8e6bf5;
+  --majorelle-blue-electric-variant: #6f27e4;
+  --majorelle-blue-lighter-variant: #916cfb;
+  --majorelle-blue-deep-midnignt-variant: #321e6b;
+  --rose: #f42272;
+  --darker-rose-variant:#D61E64;
+  --coral-rose-variant:#FF5A7D;
+  --softer-rose-variant:#F890B5;
+  --open-sans: 'Open Sans', sans-serif;
+  --manrope: 'Manrope', sans-serif;
+  --royal-amethyst-cascade: linear-gradient(45deg, #5933a0, #724cf9);
 }
