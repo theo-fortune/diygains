@@ -9,6 +9,24 @@ body {
   background: var(--bg);
 }
 
+/* Custom Scrollbar Styles */
+body::-webkit-scrollbar {
+  width: 12px; /* Set the width of the scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #f5f5f5; /* Color of the scrollbar thumb */
+  border-radius: 8px; /* Round the corners of the thumb */
+  border: 2px solid #e0e0e0; /* Border color around the thumb */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #fafafa; /* Color of the scrollbar track */
+  border-radius: 10px; /* Round the corners of the track */
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the track */
+}
+
+
 a {
   text-decoration: none;
   color: unset;

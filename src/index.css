@@ -17,7 +17,7 @@
   --pure-white: #ffffff;
   --warm-white: #fff5eb;
   --off-white: #fdfcf9;
-  --bg: #FAFAFC;
+  --bg: #fafafc;
   --light-gray: #eaeaea;
   --medium-gray: #777777;
   --raising-black: #2d2d34;
@@ -30,10 +30,12 @@
   --majorelle-blue-lighter-variant: #916cfb;
   --majorelle-blue-deep-midnignt-variant: #321e6b;
   --rose: #f42272;
-  --darker-rose-variant:#D61E64;
-  --coral-rose-variant:#FF5A7D;
-  --softer-rose-variant:#F890B5;
-  --open-sans: 'Open Sans', sans-serif;
-  --manrope: 'Manrope', sans-serif;
+  --darker-rose-variant: #d61e64;
+  --coral-rose-variant: #ff5a7d;
+  --softer-rose-variant: #f890b5;
+  --open-sans: "Open Sans", sans-serif;
+  --manrope: "Manrope", sans-serif;
+  --lato: "Lato", sans-serif;
   --royal-amethyst-cascade: linear-gradient(45deg, #5933a0, #724cf9);
+  --mystic-twilight-elegance: linear-gradient(45deg, #2D2D34, #F42272);
 }
