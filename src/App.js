@@ -1,5 +1,5 @@
 import "./App.css";
-import { Hero } from "./pages/LandingPage/Pages";
+import { Features, Hero } from "./pages/LandingPage/Pages";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <Router>
         <Hero />
+        <Features />
       </Router>
     </div>
   );

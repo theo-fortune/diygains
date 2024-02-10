@@ -3,6 +3,7 @@
   grid-template-columns: 450px 520px;
   padding: 84px 96px 48px 96px;
   justify-content: space-between;
+  background: var(--pure-white);
 }
 
 .hero-left {
@@ -34,7 +35,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  position: relative;
 }
 
 .hero-right img {

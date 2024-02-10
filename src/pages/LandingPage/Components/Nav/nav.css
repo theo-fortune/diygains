@@ -4,6 +4,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 24px 48px;
+  background: var(--pure-white);
 }
 
 nav .logo {
