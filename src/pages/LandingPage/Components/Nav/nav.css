@@ -51,6 +51,10 @@ nav a {
   display: none;
 }
 
+.mobile-buttons {
+  display: none;
+}
+
 @media screen and (max-width: 1024px) {
   .nav-links {
     display: none;
@@ -66,8 +70,8 @@ nav a {
   .nav-links_mobile {
     display: flex;
     flex-direction: column;
-    align-items: end;
-    align-content: end;
+    align-items: flex-end;
+    text-align: right;
     gap: 24px;
     box-shadow: 0 4px 16px 0 rgba(45, 45, 52, 0.25);
     background: var(--pure-white);
@@ -80,6 +84,13 @@ nav a {
     width: auto;
     top: 48px;
     overflow: hidden;
+  }
+
+  .mobile-links {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    align-content: end;
   }
 
   .nav-links_mobile a {
@@ -109,5 +120,23 @@ nav a {
   .nav-buttons button {
     padding: 12px 20px;
     font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 24px;
+  }
+}
+
+@media screen and (max-width: 546px) {
+  .nav-buttons {
+    display: none;
+  }
+
+  .mobile-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
 }

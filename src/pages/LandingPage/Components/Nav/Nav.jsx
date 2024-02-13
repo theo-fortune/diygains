@@ -36,11 +36,17 @@ const Navbar = () => {
           )}
           {toggleMenu && (
             <div className="nav-links_mobile scale-up-center">
-              <Link>How It Works</Link>
-              <Link>Home</Link>
-              <Link>About Us</Link>
-              <Link>Features</Link>
-              <Link>Contact</Link>
+              <div className="mobile-links">
+                <Link>How It Works</Link>
+                <Link>Home</Link>
+                <Link>About Us</Link>
+                <Link>Features</Link>
+                <Link>Contact</Link>
+              </div>
+              <div className="mobile-buttons">
+                <button>Sign Up</button>
+                <button>Log In</button>
+              </div>
             </div>
           )}
         </div>
