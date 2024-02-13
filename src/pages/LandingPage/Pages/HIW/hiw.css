@@ -1,0 +1,80 @@
+.hiw {
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  position: relative;
+}
+
+.hiw-mockup {
+  width: 490px;
+  margin-right: -200px;
+  z-index: 1;
+}
+
+.hiw-card {
+  background: var(--royal-amethyst-cascade);
+  color: var(--pure-white);
+  padding: 48px 96px 72px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 36px;
+  width: 73%;
+  border-radius: 160px 0px 0px 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.triangle-abs,
+.rectangle-abs,
+.star {
+  position: absolute;
+}
+
+.star {
+  left: 300px;
+  top: -90px;
+  width: 243px;
+}
+
+.triangle-abs {
+  bottom: -60px;
+  left: 250px;
+}
+
+.rectangle-abs {
+  top: 27px;
+  right: 12px;
+}
+
+.hiw-card__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 16px;
+}
+
+.hiw-card__text h1 {
+  font-family: var(--manrope);
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.hiw-card__text p {
+  font-family: var(--lato);
+  font-size: 16px;
+  width: 450px;
+  text-align: right;
+}
+
+.hiw-card button {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--manrope);
+  padding: 16px 28px;
+  color: var(--pure-white);
+  background: var(--rose);
+  border-radius: 12px;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}

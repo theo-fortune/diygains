@@ -3,3 +3,8 @@ export { default as Blob } from "./feature-blob.png"
 export { default as Mobile } from './mobile.svg';
 export { default as Element } from './element.svg';
 export { default as Shield } from './shield-tick.svg';
+export { default as MBP } from './mbp-mockup.png';
+export { default as S21u } from './s21u-mockup.png';
+export { default as triangleAbs } from './triangle-abs.png';
+export { default as reactangleAbs } from './rectangle-abs.png';
+export { default as Star } from './Star.png';
