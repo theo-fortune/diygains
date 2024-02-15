@@ -8,3 +8,4 @@ export { default as S21u } from './s21u-mockup.png';
 export { default as triangleAbs } from './triangle-abs.png';
 export { default as reactangleAbs } from './rectangle-abs.png';
 export { default as Star } from './Star.png';
+export { default as Hexagon } from './hexagon.png';

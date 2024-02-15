@@ -5,8 +5,8 @@ import { MBP, Star, reactangleAbs, triangleAbs } from "../../../../assets";
 const Hiw = () => {
   return (
     <section className="hiw">
-      <img src={MBP} alt="mockup" className="hiw-mockup"/>
-        <img src={Star} alt="star" className="star" />
+      <img src={MBP} alt="mockup" className="hiw-mockup" />
+      <img src={Star} alt="star" className="star" />
       <div className="hiw-card">
         <img src={triangleAbs} alt="triangle" className="triangle-abs" />
         <img src={reactangleAbs} alt="rectangle" className="rectangle-abs" />
