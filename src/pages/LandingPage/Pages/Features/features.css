@@ -97,3 +97,59 @@
   font-family: var(--lato);
   font-size: 10px;
 }
+
+@media screen and (max-width: 1128px) {
+  .features {
+    padding: 48px 64px;
+    grid-template-columns: 400px auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .features {
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  .features-left {
+    width: 450px;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 608px) {
+  .features {
+    padding: 48px 24px;
+  }
+}
+
+@media screen and (max-width: 541px) {
+  .features-left {
+    width: 100%;
+  }
+
+  .features-card {
+    padding: 20px 12px;
+    width: 180px;
+  }
+
+  .icon-house {
+    margin-bottom: 12px;
+  }
+
+  .features-card h1 {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+
+  .features-card p {
+    font-size: 10px;
+  }
+
+  .features-right {
+    gap: 16px;
+  }
+}
