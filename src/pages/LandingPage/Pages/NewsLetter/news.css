@@ -1,0 +1,71 @@
+.news {
+  background: var(--pure-white);
+  padding: 96px;
+}
+
+.news-letter {
+  background: var(--royal-amethyst-cascade);
+  border-radius: 36px;
+  padding: 48px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  align-items: center;
+  justify-content: center;
+}
+
+.news-letter__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  width: 826px;
+}
+
+.news-letter__text h1 {
+  font-family: var(--manrope);
+  color: var(--pure-white);
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.news-letter__text p {
+  font-family: var(--lato);
+  font-size: 20px;
+  color: var(--light-gray);
+  text-align: center;
+}
+
+.news-letter__form {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.news-letter__form input {
+  border: 1px solid var(--light-gray);
+  padding: 20px 16px;
+  width: 360px;
+  border-radius: 12px;
+  font-family: var(--lato);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--light-gray);
+}
+
+.news-letter__form input::placeholder {
+  color: var(--light-gray);
+  font-family: var(--lato);
+  font-weight: 500;
+}
+
+.news-letter__form button {
+  font-family: var(--manrope);
+  background: var(--rose);
+  color: var(--pure-white);
+  border-radius: 12px;
+  font-size: 20px;
+  padding: 20px 16px;
+  font-weight: Bold;
+}
