@@ -59,3 +59,64 @@
   margin-left: -200px;
   z-index: 3;
 }
+
+@media screen and (max-width: 1140px) {
+  .s21u {
+    width: 430px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .about {
+    padding: 0;
+  }
+  .s21u {
+    display: none;
+  }
+
+  .about-card {
+    border-radius: 0;
+    align-items: center;
+    width: 100%;
+    padding: 84px 0;
+  }
+
+  .hexagon {
+    left: -90px;
+    right: unset;
+    width: 318px;
+    top: -91px;
+  }
+
+  .about-card__text {
+    align-items: center;
+  }
+
+  .about-card__text p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 498px) {
+  .about-card {
+    padding: 56px 24px;
+  }
+
+  .about-card__text h1 {
+    font-size: 32px;
+  }
+
+  .about-card__text p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .about-card button {
+    font-size: 16px;
+  }
+
+  .hexagon {
+    width: 159px;
+    left: -30px;
+  }
+}

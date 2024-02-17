@@ -78,3 +78,60 @@
   max-width: -moz-fit-content;
   max-width: fit-content;
 }
+
+@media screen and (max-width: 1140px) {
+  .hiw-mockup {
+    width: 430px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hiw-mockup {
+    display: none;
+  }
+
+  .hiw-card {
+    border-radius: 0;
+    align-items: center;
+    width: 100%;
+    padding: 84px 0;
+  }
+
+  .star {
+    left: unset;
+    right: -90px;
+    width: 318px;
+  }
+
+  .hiw-card__text {
+    align-items: center;
+  }
+
+  .hiw-card__text p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 498px) {
+  .hiw-card {
+    padding: 56px 24px;
+  }
+
+  .hiw-card__text h1 {
+    font-size: 32px;
+  }
+
+  .hiw-card__text p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .hiw-card button {
+    font-size: 16px;
+  }
+
+  .star {
+    width: 159px;
+    right: -30px;
+  }
+}

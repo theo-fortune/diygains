@@ -152,4 +152,41 @@
   .features-right {
     gap: 16px;
   }
+
+  .blob {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .features-card {
+    padding: 16px 12px;
+    gap: 0;
+    justify-content: space-between;
+    width: 140px;
+  }
+
+  .icon-house {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+  }
+
+  .icon-house img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .features-card h1 {
+    font-size: 10px;
+  }
+
+  .features-card p {
+    font-size: 8px;
+  }
+
+  /* .icon-house img:first-child {
+    width: 16px;
+    height: 20px;
+  } */
 }
