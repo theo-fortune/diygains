@@ -50,6 +50,7 @@ export const Data = [
     id: 5,
     name: "Kaylynn Bator",
     image: User5,
+    title: "Bank Manager",
     description:
       "Joining DIYGAINS was the best decision for my DIY endeavors. The platform's simplicity, combined with the diverse range of projects and rewards, has made my crafting journey both enjoyable and enriching.",
     quote: Quote,
@@ -58,6 +59,7 @@ export const Data = [
     id: 6,
     name: "Desirae Rosser",
     image: User6,
+    title: "DIYGAINS USER",
     description:
       "DIYGAINS has transformed my crafting routine into a fulfilling experience. The referral program is a fantastic addition – it not only brings in more like-minded individuals but also rewards us for building a stronger community.",
     quote: Quote,
@@ -66,6 +68,7 @@ export const Data = [
     id: 7,
     name: "Cooper Vetrovs",
     image: User7,
+    title: "DIYGAINS USER",
     description:
       "DIYGAINS has transformed my crafting routine into a fulfilling experience. The referral program is a fantastic addition – it not only brings in more like-minded individuals but also rewards us for building a stronger community.",
     quote: Quote,

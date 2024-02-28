@@ -20,6 +20,7 @@
   --bg: #fafafc;
   --light-gray: #eaeaea;
   --medium-gray: #777777;
+  --cool-gray: #a9a9a9;
   --raising-black: #2d2d34;
   --raising-black-darker-variant: #262629;
   --raising-black-charcoal-variant: #1f1f26;
@@ -39,7 +40,14 @@
   --faint-majorelle-blue: rgba(114, 76, 249, 0.1);
   --faint-harvest-gold: rgba(236, 164, 0, 0.1);
   --faint-rose: rgba(244, 34, 114, 0.1);
+  --mystic-twilight-elegance: linear-gradient(95.85deg, #2d2d34 7.67%, #f42272 100%);
+  --card-linear: linear-gradient(
+    180deg,
+    #610528 -9.5%,
+    #f42272 -9.49%,
+    #3d0a4a 100%
+  );
   --royal-amethyst-cascade: linear-gradient(45deg, #5933a0, #724cf9);
   --mystic-twilight-elegance: linear-gradient(45deg, #2d2d34, #f42272);
-  --orchid-burst: linear-gradient(45deg, #724CF9, #ECA400);
+  --orchid-burst: linear-gradient(45deg, #724cf9, #eca400);
 }
