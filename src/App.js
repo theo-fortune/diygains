@@ -5,6 +5,7 @@ import {
   Hero,
   News,
   Testimonials,
+  FAQs
 } from "./pages/LandingPage/Pages";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Hiw from "./pages/LandingPage/Pages/HIW/Hiw";
@@ -19,6 +20,7 @@ function App() {
         <About />
         <News />
         <Testimonials />
+        <FAQs />
       </Router>
     </div>
   );
