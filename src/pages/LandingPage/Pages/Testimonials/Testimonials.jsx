@@ -32,21 +32,21 @@ const Testimonials = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      // Update centered state based on screen width
+      //* Update centered state based on screen width
       setCentered(window.innerWidth > 734);
     };
 
-    // Attach event listener on component mount
+    //* Attach event listener on component mount
     window.addEventListener("resize", handleResize);
 
-    // Call the handler once to initialize the state
+    //* Call the handler once to initialize the state
     handleResize();
 
-    // Detach event listener on component unmount
+    //* Detach event listener on component unmount
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, []); // Empty dependency array means this effect runs only on mount and unmount
+  }, []); //* Empty dependency array means this effect runs only on mount and unmount
 
   return (
     <section className="testimonials">
@@ -64,6 +64,7 @@ const Testimonials = () => {
           disableOnInteraction: true,
         }}
         modules={[Pagination, Autoplay]}
+        disableOnInteraction={true}
         className="mySwiper"
       >
         {Data.map(({ id, image, description, title, name, quote }) => {

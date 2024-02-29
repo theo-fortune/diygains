@@ -102,6 +102,7 @@
   .testimonials {
     padding: 48px 0 48px 48px;
   }
+
   .testimonials h1 {
     margin-bottom: 48px;
     font-size: 36px;
@@ -109,7 +110,7 @@
 
   .testimonials-card__up p {
     font-size: 14px;
-    /* height: 140px; */
+    max-height: 140px;
   }
 
   .testimonials-card {
@@ -118,5 +119,33 @@
 
   .swiper-slide {
     width: 300px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .testimonials {
+    padding: 36px 0 36px 24px;
+  }
+
+  .testimonials-card {
+    width: 288px !important;
+  }
+
+  .testimonials h1 {
+    font-size: 24px;
+    margin-bottom: 36px;
+  }
+
+  .testimonials-card {
+    padding: 24px 16px;
+  }
+
+  .testimonials-card__up {
+    gap: 24px;
+  }
+
+  .testimonials-card__up p {
+    font-size: 14px;
+    max-height: 120px;
   }
 }
