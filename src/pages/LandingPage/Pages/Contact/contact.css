@@ -1,0 +1,86 @@
+.contact {
+  padding: 48px 96px;
+  background: var(--royal-amethyst-cascade);
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.contact-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  color: var(--pure-white);
+  text-align: center;
+}
+
+.contact-heading h1 {
+  font-size: 40px;
+  font-family: var(--manrope);
+}
+
+.contact-heading p {
+  font-family: var(--lato);
+  font-weight: 500;
+  width: 720px;
+}
+
+.contact-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-form img {
+  width: 440px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+  width: 410px;
+}
+
+.contact-form__input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.contact-form__input textarea {
+  resize: none;
+}
+
+.contact-form__input input,
+.contact-form__input textarea {
+  border-radius: 8px;
+  padding: 24px 20px;
+  background: var(--pure-white);
+  color: var(--raisin-black);
+  font-family: var(--lato);
+  width: 100%;
+}
+
+.contact-form__input input::placeholder,
+.contact-form__input textarea::placeholder {
+  font-family: var(--lato);
+  color: var(--raisin-black);
+}
+
+.contact-form form button {
+  background: var(--rose);
+  padding: 16px 10px;
+  width: 100%;
+  font-size: 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--pure-white);
+  font-family: var(--manrope);
+}

@@ -17,3 +17,4 @@ export { default as User4 } from "./user-4.jpg";
 export { default as User5 } from "./user-5.jpg";
 export { default as User6 } from "./user-6.jpg";
 export { default as User7 } from "./user-7.jpg";
+export { default as ContactIllustration } from './contact-illustration.png';
