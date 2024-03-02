@@ -6,3 +6,4 @@ export { default as News } from './NewsLetter/News';
 export { default as Testimonials } from './Testimonials/Testimonials';
 export { default as FAQs } from './FAQs/FAQs';
 export { default as Contact } from './Contact/Contact';
+export { default as Footer } from './Footer/Footer';
