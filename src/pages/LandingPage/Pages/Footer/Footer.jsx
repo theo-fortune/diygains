@@ -1,6 +1,7 @@
 import React from "react";
 import "./footer.css";
 import { Link } from "react-router-dom";
+import { Facebook, Instagram, LinkedIn, Twitter } from "../../../../assets";
 
 const Footer = () => {
   return (
@@ -49,12 +50,23 @@ const Footer = () => {
         <div className="footer-links__right">
           <h4>Follow Our Socials</h4>
           <div className="footer-links__right-socials">
-            {/** Socials Here */}
+            <Link to={"/"}>
+              <img src={LinkedIn} alt="Social" />
+            </Link>
+            <Link to={"/"}>
+              <img src={Instagram} alt="Social" />
+            </Link>
+            <Link to={"/"}>
+              <img src={Facebook} alt="Social" />
+            </Link>
+            <Link to={"/"}>
+              <img src={Twitter} alt="Social" />
+            </Link>
           </div>
         </div>
       </div>
       <div className="footer-copy">
-        <p>Copyright ©2024 DiyGains Powered by @companyname</p>
+        <p>Copyright ©2024 DiyGains Powered by @CompanyName</p>
       </div>
     </footer>
   );
