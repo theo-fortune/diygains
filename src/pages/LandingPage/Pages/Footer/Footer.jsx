@@ -21,7 +21,7 @@ const Footer = () => {
               <Link to="/">Guidelines</Link>
             </div>
           </div>
-          <div className="footer-links__left-item">
+          <div className="footer-links__left-item even-grid">
             <h4>Get in Touch</h4>
             <div className="footer-links__left-item-links">
               <Link to="/">Contact</Link>
@@ -38,7 +38,7 @@ const Footer = () => {
               <Link to="/">About</Link>
             </div>
           </div>
-          <div className="footer-links__left-item">
+          <div className="footer-links__left-item even-grid">
             <h4>Other Projects</h4>
             <div className="footer-links__left-item-links">
               <Link to="/">Project 1</Link>

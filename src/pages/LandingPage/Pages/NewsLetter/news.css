@@ -150,4 +150,8 @@
   .news {
     padding: 48px 24px;
   }
+
+  .news-letter {
+    border-radius: 24px;
+  }
 }
