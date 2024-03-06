@@ -1,0 +1,141 @@
+.login {
+  background: var(--bg);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-shapes {
+  position: absolute;
+}
+
+.rose-vector {
+  width: 613.8px;
+  height: 596.57px;
+  right: -165.8px;
+  top: -181px;
+}
+
+.purple-vector {
+  width: 525.93px;
+  height: 638.84px;
+  left: -194px;
+  bottom: -270.84px;
+}
+
+.rose-ellipse {
+  width: 78px;
+  height: 78px;
+  left: 175px;
+  top: 64px;
+}
+
+.gray-ellipse {
+  width: 30px;
+  height: 30px;
+  left: 223px;
+  top: 307px;
+}
+
+.gold-rectangle {
+  width: 85.01px;
+  height: 85.01px;
+  right: 245.98px;
+  bottom: 282.99px;
+}
+
+.blue-polygon {
+  width: 90px;
+  height: 90px;
+  right: 469px;
+  bottom: 6.36px;
+}
+
+.login form {
+  width: 380px;
+  height: 486px;
+  background: var(--pure-white);
+  box-shadow: 0px 4px 18px -4px rgba(45, 45, 52, 0.15);
+  border-radius: 12px;
+  z-index: 1000;
+  padding: 0 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+}
+
+.login-form-intro {
+  color: var(--raising-black);
+  font-family: var(--manrope);
+  font-weight: 700;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 65px;
+}
+
+.login-form-intro span {
+  color: var(--majorelle-blue);
+}
+
+.login-form__input-password {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.login-form__input {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.login-form__input input {
+  width: 100%;
+  border: 0.5px solid var(--medium-gray);
+  border-radius: 4px;
+  padding: 16px 12px;
+  text-align: center;
+  font-family: var(--manrope);
+}
+
+.login-form__input input::placeholder {
+  color: var(--medium-gray);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.login-form__input-password a {
+  font-family: var(--manrope);
+  font-weight: 800;
+  font-size: 8px;
+  color: var(--majorelle-blue);
+}
+
+.login form button {
+  background: var(--sunset-blaze-radiance);
+  padding: 16px 0px;
+  gap: 10px;
+  border-radius: 8px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 12px;
+  font-family: var(--manrope);
+  color: var(--pure-white);
+}
+
+.login-form__alt {
+  font-weight: 800;
+  font-size: 8px;
+  color: var(--raising-black-charcoal-variant);
+  font-family: var(--manrope);
+}
+
+.login-form__alt a {
+  color: var(--coral-rose-variant);
+}

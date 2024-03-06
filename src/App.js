@@ -1,30 +1,16 @@
 import "./App.css";
-import {
-  About,
-  Features,
-  Hero,
-  News,
-  Testimonials,
-  FAQs,
-  Contact,
-  Footer
-} from "./pages/LandingPage/Pages";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Hiw from "./pages/LandingPage/Pages/HIW/Hiw";
+import Landing from "./pages/LandingPage/Landing";
+import Login from "./pages/Auth/Login";
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Hero />
-        <Features />
-        <Hiw />
-        <About />
-        <News />
-        <Testimonials />
-        <FAQs />
-        <Contact />
-        <Footer />
+        <Routes>
+          <Route path="/" element={<Landing />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
       </Router>
     </div>
   );

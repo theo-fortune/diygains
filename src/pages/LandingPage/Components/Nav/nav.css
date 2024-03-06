@@ -31,7 +31,8 @@ nav a {
   gap: 8px;
 }
 
-.nav-buttons button {
+.nav-buttons button,
+.nav-buttons a {
   padding: 16px 28px;
   border-radius: 12px;
   font-weight: 500;
@@ -42,7 +43,8 @@ nav a {
   background: var(--royal-amethyst-cascade);
 }
 
-.nav-buttons button:last-child {
+.nav-buttons button:last-child,
+.nav-buttons a {
   background: var(--light-gray);
   color: var(--medium-gray);
 }
