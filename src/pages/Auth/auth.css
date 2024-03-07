@@ -1,4 +1,5 @@
-.login {
+.login,
+.signup {
   background: var(--bg);
   width: 100vw;
   height: 100vh;
@@ -55,7 +56,8 @@
   bottom: 6.36px;
 }
 
-.login form {
+.login form,
+.signup form {
   width: 380px;
   height: 486px;
   background: var(--pure-white);
@@ -67,6 +69,10 @@
   flex-direction: column;
   align-items: center;
   gap: 36px;
+}
+
+.signup form {
+  align-items: unset;
 }
 
 .login-form-intro {
@@ -88,14 +94,16 @@
   align-items: flex-end;
 }
 
-.login-form__input {
+.login-form__input,
+.signup-form__inputs {
   display: flex;
   flex-direction: column;
   gap: 24px;
   width: 100%;
 }
 
-.login-form__input input {
+.login-form__input input,
+.signup-form__inputs input {
   width: 100%;
   border: 0.5px solid var(--medium-gray);
   border-radius: 4px;
@@ -104,7 +112,8 @@
   font-family: var(--manrope);
 }
 
-.login-form__input input::placeholder {
+.login-form__input input::placeholder,
+.signup-form__inputs input::placeholder {
   color: var(--medium-gray);
   font-weight: 600;
   font-size: 12px;
@@ -131,11 +140,83 @@
 
 .login-form__alt {
   font-weight: 800;
-  font-size: 8px;
+  font-size: 10px;
   color: var(--raising-black-charcoal-variant);
   font-family: var(--manrope);
 }
 
 .login-form__alt a {
+  color: var(--coral-rose-variant);
+}
+
+.signup-form__steps {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+}
+
+.signup-form__steps span {
+  font-family: var(--manrope);
+  color: var(--raising-black-charcoal-variant);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.signup-form__steps-intro {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.signup-form__steps-intro,
+.signup-form__steps-intro span {
+  font-weight: 700;
+  font-size: 10px;
+  font-family: var(--manrope);
+  color: var(--raising-black);
+}
+
+.signup-form__steps-intro span {
+  color: var(--majorelle-blue);
+}
+
+.signup-form__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.signup-form__buttons button {
+  border-radius: 8px;
+  width: 100px;
+  padding: 16px 0px;
+  font-family: var(--manrope);
+  color: var(--pure-white);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.signup-form__buttons button:first-child {
+  background: var(--mystic-twilight-elegance);
+}
+
+.signup-form__buttons button:last-child {
+  background: var(--sunset-blaze-radiance);
+}
+
+.signup-form__alt {
+  font-weight: 800;
+  font-size: 10px;
+  font-family: var(--manrope);
+  color: var(--raising-black-charcoal-variant);
+  text-align: center;
+}
+
+.signup-form__alt a {
   color: var(--coral-rose-variant);
 }

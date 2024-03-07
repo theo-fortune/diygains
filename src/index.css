@@ -41,7 +41,7 @@
   --faint-majorelle-blue: rgba(114, 76, 249, 0.1);
   --faint-harvest-gold: rgba(236, 164, 0, 0.1);
   --faint-rose: rgba(244, 34, 114, 0.1);
-  --mystic-twilight-elegance: linear-gradient(95.85deg, #2d2d34 7.67%, #f42272 100%);
+  --mystic-twilight-elegance: linear-gradient(45deg, #2d2d34 7.67%, #f42272 100%);
   --card-linear: linear-gradient(
     180deg,
     #610528 -9.5%,

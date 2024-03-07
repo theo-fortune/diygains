@@ -38,13 +38,12 @@ nav a {
   font-weight: 500;
 }
 
-.nav-buttons button:first-child {
+.nav-buttons a:first-child {
   color: var(--pure-white);
   background: var(--royal-amethyst-cascade);
 }
 
-.nav-buttons button:last-child,
-.nav-buttons a {
+.nav-buttons a:last-child{
   background: var(--light-gray);
   color: var(--medium-gray);
 }

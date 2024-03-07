@@ -38,7 +38,11 @@ const Login = () => {
         alt="gold-rectangle"
         className="gold-rectangle bg-shapes"
       />
-      <img src={BluePolygon} alt="blue polygon" className="blue-polygon bg-shapes" />
+      <img
+        src={BluePolygon}
+        alt="blue polygon"
+        className="blue-polygon bg-shapes"
+      />
       <form className="login-form">
         <p className="login-form-intro">
           Sign in to your <span>DiyGains</span> account and start earning
@@ -62,7 +66,7 @@ const Login = () => {
         </div>
         <button>Log In</button>
         <p className="login-form__alt">
-          Don’t have an account? <Link> Sign Up</Link>
+          Don’t have an account? <Link to={"/signup"}> Sign Up</Link>
         </p>
       </form>
     </div>
