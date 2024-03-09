@@ -174,14 +174,15 @@
 }
 
 .signup-form__steps-intro,
-.signup-form__steps-intro span {
+.signup-form__steps-intro span,
+.signup-form__steps-intro a {
   font-weight: 700;
   font-size: 10px;
   font-family: var(--manrope);
   color: var(--raising-black);
 }
 
-.signup-form__steps-intro span {
+.signup-form__steps-intro a {
   color: var(--majorelle-blue);
 }
 
@@ -219,4 +220,8 @@
 
 .signup-form__alt a {
   color: var(--coral-rose-variant);
+}
+
+.final-button button {
+  width: 100%;
 }
