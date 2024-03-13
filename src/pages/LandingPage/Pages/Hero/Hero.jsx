@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar } from "../../Components";
 import { HeroImg } from "../../../../assets";
 import "./hero.css";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -23,7 +24,7 @@ const Hero = () => {
           </div>
           <div className="hero-left__buttons">
             <button>Get Started</button>
-            <button>Learn More</button>
+            <button><Link to={"/dashboard"} target="_blank">Learn More</Link></button>
           </div>
         </div>
         <div className="hero-right">
