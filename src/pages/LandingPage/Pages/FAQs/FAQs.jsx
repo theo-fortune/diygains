@@ -4,6 +4,12 @@ import FaqItem from "./FaqItem";
 import FaqData from "./FaqData";
 
 const FAQs = () => {
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
   return (
     <section className="faq">
       <div className="faq-heading">
@@ -20,7 +26,11 @@ const FAQs = () => {
         ))}
       </div>
       <p className="faq-alt">
-        Didn’t find your answer? <span className="faq-alt-alt"> contact us</span>
+        Didn’t find your answer?{" "}
+        <span className="faq-alt-alt" onClick={scrollToContact}>
+          {" "}
+          contact us
+        </span>
       </p>
     </section>
   );

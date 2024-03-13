@@ -4,7 +4,7 @@ import { ContactIllustration } from "../../../../assets";
 
 const Contact = () => {
   return (
-    <section className="contact">
+    <section className="contact" id="contact">
       <div className="contact-heading">
         <h1>Contact Us</h1>
         <p>

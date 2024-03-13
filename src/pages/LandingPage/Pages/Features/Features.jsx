@@ -14,7 +14,7 @@ const Features = () => {
     background: "var(--faint-harvest-gold)",
   };
   return (
-    <section className="features">
+    <section className="features" id="features">
       <div className="features-left">
         <div className="features-left__texts">
           <h1>

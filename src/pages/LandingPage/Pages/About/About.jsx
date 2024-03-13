@@ -4,7 +4,7 @@ import { Hexagon, S21u } from "../../../../assets";
 
 const About = () => {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <img src={Hexagon} alt="hexagon" className="hexagon" />
       <div className="about-card">
         <div className="about-card__text">
@@ -25,7 +25,7 @@ const About = () => {
         </div>
         <button>Learn More</button>
       </div>
-      <img src={S21u} alt="s21u" className="s21u"/>
+      <img src={S21u} alt="s21u" className="s21u" />
     </section>
   );
 };
