@@ -128,14 +128,6 @@ const SignUp = () => {
             and start earning
           </p>
         </div>
-        {/* <div className="signup-form__inputs">
-          <input type="text" name="name" id="fName" placeholder="First Name" />
-          <input type="text" name="name" id="lName" placeholder="Last Name" />
-        </div>
-        <div className="signup-form__buttons">
-          <button>Prev</button>
-          <button>Next</button>
-        </div> */}
         {renderForm()}
         <p className="signup-form__alt">
           Already have an account? <Link to={"/login"}> Sign In</Link>
