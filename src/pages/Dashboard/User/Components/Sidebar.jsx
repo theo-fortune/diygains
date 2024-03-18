@@ -6,6 +6,19 @@ import { IoWallet, IoExit } from "react-icons/io5";
 import { IoIosPeople } from "react-icons/io";
 import { FaMoneyBillWave, FaUser } from "react-icons/fa";
 
+const SidebarLink = ({ to, icon, text, isActive, onClick }) => {
+  return (
+    <Link
+      to={to}
+      className={`sidebar-link__component ${isActive && "active-link"}`}
+      onClick={onClick}
+    >
+      {icon && <icon className="sidebar-link__component-icons" />}
+      <p>{text}</p>
+    </Link>
+  );
+};
+
 const Sidebar = () => {
   const [activeLink, setActiveLink] = useState("/dashboard/overview");
   const handleLinkClick = (link) => {
@@ -19,70 +32,55 @@ const Sidebar = () => {
         <h1>DiyGains</h1>
       </div>
       <div className="sidebar-links">
-        <Link
+        <SidebarLink
           to="/dashboard/overview"
-          className={`sidebar-link__component ${
-            isLinkActive("/dashboard/overview") && "active-link"
-          }`}
+          icon={MdSpaceDashboard}
+          text="Overview"
+          isActive={isLinkActive("/dashboard/overview")}
           onClick={() => handleLinkClick("/dashboard/overview")}
-        >
-          <MdSpaceDashboard className="sidebar-link__component-icons" />
-          <p>Overview</p>
-        </Link>
-        <Link
+        />
+        <SidebarLink
           to="/dashboard/wallet"
-          className={`sidebar-link__component ${
-            isLinkActive("/dashboard/wallet") && "active-link"
-          }`}
+          icon={IoWallet}
+          text="Wallet"
+          isActive={isLinkActive("/dashboard/wallet")}
           onClick={() => handleLinkClick("/dashboard/wallet")}
-        >
-          <IoWallet className="sidebar-link__component-icons" />
-          <p>Wallet</p>
-        </Link>
-        <Link
+        />
+        <SidebarLink
           to="/dashboard/referrals"
-          className={`sidebar-link__component ${
-            isLinkActive("/dashboard/referrals") && "active-link"
-          }`}
+          icon={IoIosPeople}
+          text="Referrals"
+          isActive={isLinkActive("/dashboard/referrals")}
           onClick={() => handleLinkClick("/dashboard/referrals")}
-        >
-          <IoIosPeople className="sidebar-link__component-icons" />
-          <p>Referrals</p>
-        </Link>
-        <Link
+        />
+        <SidebarLink
           to="/dashboard/withdraw"
-          className={`sidebar-link__component ${
-            isLinkActive("/dashboard/withdraw") && "active-link"
-          }`}
+          icon={FaMoneyBillWave}
+          text="Withdraw"
+          isActive={isLinkActive("/dashboard/withdraw")}
           onClick={() => handleLinkClick("/dashboard/withdraw")}
-        >
-          <FaMoneyBillWave className="sidebar-link__component-icons" />
-          <p>Withdraw</p>
-        </Link>
-        <Link
+        />
+        <SidebarLink
           to="/dashboard/history"
-          className={`sidebar-link__component ${
-            isLinkActive("/dashboard/history") && "active-link"
-          }`}
+          icon={MdAccessTimeFilled}
+          text="History"
+          isActive={isLinkActive("/dashboard/history")}
           onClick={() => handleLinkClick("/dashboard/history")}
-        >
-          <MdAccessTimeFilled className="sidebar-link__component-icons" />
-          <p>History</p>
-        </Link>
-        <Link
+        />
+        <SidebarLink
           to="/dashboard/profile"
-          className={`sidebar-link__component ${
-            isLinkActive("/dashboard/profile") && "active-link"
-          }`}
+          icon={FaUser}
+          text="Profile"
+          isActive={isLinkActive("/dashboard/profile")}
           onClick={() => handleLinkClick("/dashboard/profile")}
-        >
-          <FaUser className="sidebar-link__component-icons" />
-          <p>Profile</p>
-        </Link>
-        <Link className="sidebar-link__component">
-          <IoExit className="sidebar-link__component-icons" />
-          <p>Log Out</p>
-        </Link>
+        />
+        <SidebarLink
+          to="/logout"
+          icon={IoExit}
+          text="Log Out"
+          onClick={() => {
+          }}
+        />
       </div>
     </div>
   );
