@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { FaBell } from "react-icons/fa";
 import { Profile } from "../../../assets";
 import { GoBellFill } from "react-icons/go";
 import "./nav.css";
