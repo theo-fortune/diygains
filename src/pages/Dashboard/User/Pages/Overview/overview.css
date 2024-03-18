@@ -1,3 +1,43 @@
-.overview {
-  padding: 40px 32px;
+.overview-nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.overview-nav__left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+}
+
+.overview-nav__left h2 {
+  font-family: var(--open-sans);
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--raising-black);
+}
+
+.overview-nav__left p {
+  font-family: var(--lato);
+  font-weight: 700;
+  font-size: 12px;
+  color: var(--cool-gray);
+}
+
+.overview-nav__right {
+  display: flex;
+  align-items: flex-start;
+}
+
+.overview-nav__right-profile_image {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.overview-nav__right-profile {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
 }
