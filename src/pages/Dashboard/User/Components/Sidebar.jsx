@@ -6,14 +6,14 @@ import { IoWallet, IoExit } from "react-icons/io5";
 import { IoIosPeople } from "react-icons/io";
 import { FaMoneyBillWave, FaUser } from "react-icons/fa";
 
-const SidebarLink = ({ to, icon, text, isActive, onClick }) => {
+const SidebarLink = ({ to, icon:Icon, text, isActive, onClick }) => {
   return (
     <Link
       to={to}
       className={`sidebar-link__component ${isActive && "active-link"}`}
       onClick={onClick}
     >
-      {icon && <icon className="sidebar-link__component-icons" />}
+      {Icon && <Icon className="sidebar-link__component-icons" />}
       <p>{text}</p>
     </Link>
   );

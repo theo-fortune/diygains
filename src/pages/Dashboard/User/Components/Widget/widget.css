@@ -1,0 +1,6 @@
+.widget {
+  background: var(--pure-white);
+  border-radius: 32px;
+  box-shadow: var(--widget-shadow);
+  height: 181px;
+}

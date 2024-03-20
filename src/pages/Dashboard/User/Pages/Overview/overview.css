@@ -1,3 +1,7 @@
+.overview {
+  display: flex;flex-direction: column;gap: 36px;
+}
+
 .overview-nav {
   display: flex;
   align-items: flex-start;

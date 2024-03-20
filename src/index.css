@@ -57,4 +57,5 @@
   --mystic-twilight-elegance: linear-gradient(45deg, #2d2d34, #f42272);
   --orchid-burst: linear-gradient(45deg, #724cf9, #eca400);
   --sunset-blaze-radiance: linear-gradient(45deg, #f42272, #ffbb00);
+  --widget-shadow: 0px 0px 4px rgba(210, 194, 255, 0.96);
 }

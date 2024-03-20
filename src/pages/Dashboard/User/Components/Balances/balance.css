@@ -1,0 +1,15 @@
+.balance {
+  max-width: 178px;
+}
+
+.balance-top {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.balance-top-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
