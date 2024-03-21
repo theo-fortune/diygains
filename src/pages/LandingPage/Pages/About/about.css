@@ -33,13 +33,11 @@
 }
 
 .about-card__text h1 {
-  font-family: var(--manrope);
   font-size: 40px;
   font-weight: 800;
 }
 
 .about-card__text p {
-  font-family: var(--lato);
   width: 450px;
 }
 
@@ -47,7 +45,6 @@
   background: var(--rose);
   padding: 16px 28px;
   font-size: 20px;
-  font-family: var(--manrope);
   font-weight: 700;
   color: var(--pure-white);
   max-width: fit-content;

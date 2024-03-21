@@ -20,11 +20,9 @@
 
 .contact-heading h1 {
   font-size: 40px;
-  font-family: var(--manrope);
 }
 
 .contact-heading p {
-  font-family: var(--lato);
   font-weight: 500;
   width: 720px;
 }
@@ -66,15 +64,13 @@
   padding: 24px 20px;
   background: var(--pure-white);
   color: var(--raisin-black);
-  font-family: var(--lato);
   width: 100%;
 }
 
 .contact-form__input input::placeholder,
 .contact-form__input textarea::placeholder,
 .contact-form__input input[type="text"],
-.contact-form__input input[type="email"]F {
-  font-family: var(--lato);
+.contact-form__input input[type="email"] {
   color: var(--raisin-black);
 }
 
@@ -87,7 +83,6 @@
   font-weight: 600;
   font-size: 24px;
   color: var(--pure-white);
-  font-family: var(--manrope);
 }
 
 @media screen and (max-width: 1024px) {

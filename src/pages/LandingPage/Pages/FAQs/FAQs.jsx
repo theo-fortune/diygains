@@ -26,9 +26,8 @@ const FAQs = () => {
         ))}
       </div>
       <p className="faq-alt">
-        Didn’t find your answer?{" "}
+        Didn’t find your answer?
         <span className="faq-alt-alt" onClick={scrollToContact}>
-          {" "}
           contact us
         </span>
       </p>

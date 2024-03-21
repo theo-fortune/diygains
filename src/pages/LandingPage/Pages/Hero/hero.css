@@ -13,13 +13,11 @@
 }
 
 .hero-left h1 {
-  font-family: var(--manrope);
   font-weight: 800;
   font-size: 48px;
 }
 
 .hero-left p {
-  font-family: var(--lato);
   color: var(--medium-gray);
   font-weight: bold;
 }
@@ -49,7 +47,6 @@
 
 .hero-left__buttons button {
   padding: 16px 28px;
-  font-family: var(--manrope);
   font-weight: bold;
   border-radius: 12px;
 }

@@ -24,14 +24,12 @@
 }
 
 .news-letter__text h1 {
-  font-family: var(--manrope);
   color: var(--pure-white);
   font-size: 40px;
   font-weight: 800;
 }
 
 .news-letter__text p {
-  font-family: var(--lato);
   font-size: 20px;
   color: var(--light-gray);
   text-align: center;
@@ -48,7 +46,6 @@
   padding: 20px 16px;
   width: 360px;
   border-radius: 12px;
-  font-family: var(--lato);
   font-size: 20px;
   font-weight: 500;
   color: var(--light-gray);
@@ -56,12 +53,10 @@
 
 .news-letter__form input::placeholder {
   color: var(--light-gray);
-  font-family: var(--lato);
   font-weight: 500;
 }
 
 .news-letter__form button {
-  font-family: var(--manrope);
   background: var(--rose);
   color: var(--pure-white);
   border-radius: 12px;

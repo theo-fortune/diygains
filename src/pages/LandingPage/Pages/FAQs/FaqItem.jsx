@@ -9,14 +9,14 @@ const FaqItem = ({ question, answer }) => {
   };
   return (
     <div className="faq-item">
-      <div className="faq-question" onClick={toggleAccordion}>
+      <h4 className="faq-question" onClick={toggleAccordion}>
         <span>{question}</span>
         {isOpen ? (
           <BiSolidUpArrow className="faq-icon" />
         ) : (
           <BiSolidDownArrow className="faq-icon" />
         )}
-      </div>
+      </h4>
       {isOpen && <div className="faq-answer">{answer}</div>}
     </div>
   );

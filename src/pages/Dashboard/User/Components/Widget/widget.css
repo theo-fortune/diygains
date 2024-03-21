@@ -3,4 +3,70 @@
   border-radius: 32px;
   box-shadow: var(--widget-shadow);
   height: 181px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.earnings {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  padding: 60px 20px 40px 40px;
+}
+
+.wallet-balance {
+  width: 178px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.wallet-balance-top {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.wallet-balance-top-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.wallet-balance-top-left h5 {
+  font-family: var(--open-sans);
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--dark-gray);
+}
+
+.wallet-balance-top-left-icon {
+  font-size: 24px;
+}
+
+.earnings .wallet-balance-top-left-icon {
+  color: var(--rose);
+}
+
+.wallet-balance-top-left-eye {
+  font-size: 24px;
+}
+
+.wallet-balance-bottom-amount {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.wallet-balance-bottom-amount h3 {
+  font-weight: 800;
+  font-size: 24px;
+  color: var(--dark-gray);
+}
+
+.naira-sign {
+  /* font-family: "ManropeNaira", sans-serif; */
+  font-family: none;
 }

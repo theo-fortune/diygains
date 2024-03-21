@@ -20,7 +20,6 @@
 }
 
 .features-left__texts h1 {
-  font-family: var(--manrope);
   font-weight: 800;
   font-size: 36px;
 }
@@ -33,7 +32,6 @@
 }
 
 .features-left__texts p {
-  font-family: var(--lato);
   font-weight: 600;
   color: var(--medium-gray);
 }
@@ -42,7 +40,6 @@
   background: var(--rose);
   border-radius: 12px;
   color: var(--pure-white);
-  font-family: var(--manrope);
   font-weight: bold;
   padding: 16px 28px;
   max-width: fit-content;
@@ -87,14 +84,12 @@
 
 .features-card h1 {
   color: var(--majorelle-blue-deep-midnight-variant);
-  font-family: var(--manrope);
   font-weight: 800;
   font-size: 16px;
   margin-bottom: 20px;
 }
 
 .features-card p {
-  font-family: var(--lato);
   font-size: 10px;
 }
 

@@ -56,13 +56,11 @@
 }
 
 .hiw-card__text h1 {
-  font-family: var(--manrope);
   font-size: 36px;
   font-weight: 800;
 }
 
 .hiw-card__text p {
-  font-family: var(--lato);
   font-size: 16px;
   width: 450px;
   text-align: right;
@@ -71,7 +69,6 @@
 .hiw-card button {
   font-size: 20px;
   font-weight: 700;
-  font-family: var(--manrope);
   padding: 16px 28px;
   color: var(--pure-white);
   background: var(--rose);

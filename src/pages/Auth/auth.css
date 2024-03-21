@@ -77,7 +77,6 @@
 
 .login-form-intro {
   color: var(--raising-black);
-  font-family: var(--manrope);
   font-weight: 700;
   font-size: 10px;
   text-align: center;
@@ -109,7 +108,6 @@
   border-radius: 4px;
   padding: 16px 12px;
   text-align: center;
-  font-family: var(--manrope);
 }
 
 .login-form__input input::placeholder,
@@ -120,7 +118,6 @@
 }
 
 .login-form__input-password a {
-  font-family: var(--manrope);
   font-weight: 800;
   font-size: 8px;
   color: var(--majorelle-blue);
@@ -134,7 +131,6 @@
   width: 100%;
   font-weight: 600;
   font-size: 12px;
-  font-family: var(--manrope);
   color: var(--pure-white);
 }
 
@@ -142,7 +138,6 @@
   font-weight: 800;
   font-size: 10px;
   color: var(--raising-black-charcoal-variant);
-  font-family: var(--manrope);
 }
 
 .login-form__alt a {
@@ -196,7 +191,6 @@
   border-radius: 8px;
   width: 100px;
   padding: 16px 0px;
-  font-family: var(--manrope);
   color: var(--pure-white);
   font-weight: 600;
   font-size: 12px;
