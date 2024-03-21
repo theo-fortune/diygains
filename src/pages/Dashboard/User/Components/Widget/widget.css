@@ -5,14 +5,17 @@
   height: 181px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
-.earnings {
-  /* display: flex;
+.earnings,
+.balance,
+.matching-bonus,
+.withdrawn {
+  padding: 60px 0 40px 0;
+  width: 25%;
+  display: flex;
   align-items: center;
-  justify-content: center; */
-  padding: 60px 20px 40px 40px;
+  justify-content: center;
 }
 
 .wallet-balance {
@@ -50,6 +53,14 @@
   color: var(--rose);
 }
 
+.balance .wallet-balance-top-left-icon {
+  color: var(--harvest-gold-sunset-variant);
+}
+
+.matching-bonus .wallet-balance-top-left-icon {
+  color: var(--majorelle-blue);
+}
+
 .wallet-balance-top-left-eye {
   font-size: 24px;
 }
@@ -61,12 +72,34 @@
 }
 
 .wallet-balance-bottom-amount h3 {
-  font-weight: 800;
+  font-weight: 700;
   font-size: 24px;
   color: var(--dark-gray);
 }
 
-.naira-sign {
-  /* font-family: "ManropeNaira", sans-serif; */
-  font-family: none;
+.wallet-balance-bottom-amount__percentage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  background: rgba(17, 140, 79, 0.15);
+  border-radius: 18px;
+}
+
+.wallet-balance-bottom-amount__percentage p {
+  font-family: var(--open-sans);
+  font-weight: 700;
+  font-size: 6px;
+  color: #118c4f;
+}
+
+.wallet-balance-bottom-amount__percentage-icon {
+  font-size: 5.6px;
+  color: #118c4f;
+}
+
+.earnings,
+.balance,
+.matching-bonus {
+  border-right: 1px solid var(--light-gray);
 }

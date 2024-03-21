@@ -5,7 +5,6 @@ import { PiTrendUpFill, PiWalletFill } from "react-icons/pi"; // * Earnings
 import { BiSolidWallet } from "react-icons/bi"; // * Balance
 import { GiUpgrade } from "react-icons/gi";
 import { FaWallet } from "react-icons/fa";
-import Balance from "../Balances/Balance";
 
 const Widget = () => {
   return (
@@ -21,11 +20,10 @@ const Widget = () => {
           </div>
           <div className="wallet-balance-bottom">
             <div className="wallet-balance-bottom-amount">
-              <h3>
-                <span className="naira-sign"> ₦</span> 450,000
-              </h3>
+              <h3>₦450,000</h3>
               <div className="wallet-balance-bottom-amount__percentage">
-                <p>120k</p> <PiTrendUpFill />
+                <p>120k</p>{" "}
+                <PiTrendUpFill className="wallet-balance-bottom-amount__percentage-icon" />
               </div>
             </div>
           </div>
@@ -35,8 +33,8 @@ const Widget = () => {
         <div className="wallet-balance">
           <div className="wallet-balance-top">
             <div className="wallet-balance-top-left">
-              <PiWalletFill className="wallet-balance-top-left-icon" />
-              <h5>Earnings</h5>
+              <BiSolidWallet className="wallet-balance-top-left-icon" />
+              <h5>Balance</h5>
             </div>
             <RiEyeFill className="wallet-balance-top-left-eye" />
           </div>
@@ -44,7 +42,8 @@ const Widget = () => {
             <div className="wallet-balance-bottom-amount">
               <h3>₦450,000</h3>
               <div className="wallet-balance-bottom-amount__percentage">
-                <p>120k</p> <PiTrendUpFill />
+                <p>120k</p>{" "}
+                <PiTrendUpFill className="wallet-balance-bottom-amount__percentage-icon" />
               </div>
             </div>
           </div>
@@ -54,7 +53,7 @@ const Widget = () => {
         <div className="wallet-balance">
           <div className="wallet-balance-top">
             <div className="wallet-balance-top-left">
-              <PiWalletFill className="wallet-balance-top-left-icon" />
+              <GiUpgrade className="wallet-balance-top-left-icon" />
               <h5>Earnings</h5>
             </div>
             <RiEyeFill className="wallet-balance-top-left-eye" />
@@ -63,7 +62,8 @@ const Widget = () => {
             <div className="wallet-balance-bottom-amount">
               <h3>₦450,000</h3>
               <div className="wallet-balance-bottom-amount__percentage">
-                <p>120k</p> <PiTrendUpFill />
+                <p>120k</p>{" "}
+                <PiTrendUpFill className="wallet-balance-bottom-amount__percentage-icon" />
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@ const Widget = () => {
         <div className="wallet-balance">
           <div className="wallet-balance-top">
             <div className="wallet-balance-top-left">
-              <PiWalletFill className="wallet-balance-top-left-icon" />
+              <FaWallet className="wallet-balance-top-left-icon" />
               <h5>Earnings</h5>
             </div>
             <RiEyeFill className="wallet-balance-top-left-eye" />
@@ -82,7 +82,8 @@ const Widget = () => {
             <div className="wallet-balance-bottom-amount">
               <h3>₦450,000</h3>
               <div className="wallet-balance-bottom-amount__percentage">
-                <p>120k</p> <PiTrendUpFill />
+                <p>120k</p>{" "}
+                <PiTrendUpFill className="wallet-balance-bottom-amount__percentage-icon" />
               </div>
             </div>
           </div>
