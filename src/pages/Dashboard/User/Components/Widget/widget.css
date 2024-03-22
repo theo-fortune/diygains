@@ -7,10 +7,7 @@
   align-items: center;
 }
 
-.earnings,
-.balance,
-.matching-bonus,
-.withdrawn {
+.widget-wallet-balance {
   padding: 60px 0 40px 0;
   width: 25%;
   display: flex;
@@ -47,22 +44,6 @@
 
 .wallet-balance-top-left-icon {
   font-size: 24px;
-}
-
-.earnings .wallet-balance-top-left-icon {
-  color: var(--rose);
-}
-
-.balance .wallet-balance-top-left-icon {
-  color: var(--harvest-gold-sunset-variant);
-}
-
-.matching-bonus .wallet-balance-top-left-icon {
-  color: var(--majorelle-blue);
-}
-
-.withdrawn .wallet-balance-top-left-icon {
-  color: var(--warmer-toned-brown);
 }
 
 .wallet-balance-top-left-eye {
@@ -102,8 +83,6 @@
   color: #118c4f;
 }
 
-.earnings,
-.balance,
-.matching-bonus {
+.widget-wallet-balance:not(:last-child) {
   border-right: 1px solid var(--light-gray);
 }
