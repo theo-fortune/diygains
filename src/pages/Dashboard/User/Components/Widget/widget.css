@@ -5,6 +5,7 @@
   height: 181px;
   display: flex;
   align-items: center;
+  grid-column: 1 / -1;
 }
 
 .widget-wallet-balance {

@@ -9,8 +9,7 @@ const Overview = () => {
         <Nav />
       </div>
       <div className="overview-page">
-
-      <Widget />
+        <Widget />
         <Chart />
         <AD />
       </div>
