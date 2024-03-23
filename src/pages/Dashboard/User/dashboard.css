@@ -8,3 +8,9 @@
   flex: 0.828125;
   padding: 40px 32px;
 }
+
+.dashboard-card {
+  background: var(--pure-white);
+  border-radius: 32px;
+  box-shadow: var(--widget-shadow);
+}

@@ -1,14 +1,19 @@
 import React from "react";
 import "./overview.css";
 import Nav from "../../Components/Nav/Nav";
-import Widget from "../../Components/Widget/Widget";
+import { AD, Chart, Widget } from "../../Components";
 const Overview = () => {
   return (
     <div className="overview">
       <div className="overview-contents">
         <Nav />
       </div>
+      <div className="overview-page">
+
       <Widget />
+        <Chart />
+        <AD />
+      </div>
     </div>
   );
 };

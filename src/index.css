@@ -27,6 +27,7 @@
   --light-gray: #eaeaea;
   --medium-gray: #777777;
   --cool-gray: #a9a9a9;
+  --ash-gray: #DCDCDC;
   --raising-black: #2d2d34;
   --raising-black-darker-variant: #262629;
   --raising-black-charcoal-variant: #1f1f26;
@@ -65,6 +66,7 @@
   --orchid-burst: linear-gradient(45deg, #724cf9, #eca400);
   --sunset-blaze-radiance: linear-gradient(45deg, #f42272, #ffbb00);
   --widget-shadow: 0px 0px 4px rgba(210, 194, 255, 0.96);
+  --component-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 h1 {

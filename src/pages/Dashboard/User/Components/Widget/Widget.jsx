@@ -44,7 +44,7 @@ const WalletBalance = ({ icon, title, amount, iconColor }) => {
 
 const Widget = () => {
   return (
-    <div className="widget">
+    <div className="widget dashboard-card">
       <WalletBalance
         icon={<PiWalletFill className="wallet-balance-top-left-icon" />}
         title="Earnings"
