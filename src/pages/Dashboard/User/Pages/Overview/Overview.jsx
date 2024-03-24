@@ -1,7 +1,7 @@
 import React from "react";
 import "./overview.css";
 import Nav from "../../Components/Nav/Nav";
-import { AD, Chart, Widget } from "../../Components";
+import { AD, Chart, Notifications, Purchases, Widget } from "../../Components";
 const Overview = () => {
   return (
     <div className="overview">
@@ -12,6 +12,8 @@ const Overview = () => {
         <Widget />
         <Chart />
         <AD />
+        <Notifications />
+        <Purchases />
       </div>
     </div>
   );
